@@ -20,3 +20,9 @@ Direct Instantiation vs Factory - ability to use a seperate function or class ha
 
 Future Extensibility:
 The design makes it easy to add new types of logging in the future. You can create a nw logger class by following the same pattern, inherit from logger_strategy and then update logger_factory to include the new logger type. The setup is flexible and ready for future upgrades such as logging to cloud tools. 
+
+References:
+Design patters - https://refactoring.guru/design-patterns
+Factory method - https://refactoring.guru/design-patterns/factory-method
+SOLID - https://www.geeksforgeeks.org/solid-principle-in-programming-understand-with-real-life-examples/
+chatGPT
